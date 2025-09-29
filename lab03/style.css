@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(skyblue, lightgreen);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2 {
+    background-color: rgb(188, 188, 238);
+}
+
+article{
+    color:rgb(1, 1, 12)
+}
+
+footer{
+    background-color:rgb(31, 30, 30);
+    color:white
+}
