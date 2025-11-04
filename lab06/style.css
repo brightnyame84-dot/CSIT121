@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header, section, footer {
+  margin-bottom: 2rem;
+}
+
+h1,h2 {
+  color: #034694; 
+}
+
+a {
+  color: #1a5ecc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #555;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+footer {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
