@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact- Video Game Tier Lists</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me About the Game Tier List</h1>
+        <nav>
+            <ul>
+                <li><a href="tierlist.html">Tier List</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post" aria-label="Video Game Tier List Feedback Form">
+            <fieldset>
+                <legend>Your Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" row="4" placeholder="Share your thoughts on the tier list..."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Game Opinions</legend>
+
+                <label for="favorite">Which game is your favorite?</label>
+                <select id="favorite" name="favorite">
+                    <option value="fc25">EA Sports FC 25</option>
+                    <option value="cod">Call of Duty: Modern Warfare III</option>
+                    <option value="mk1">Mortal Kombat 1</option>
+                    <option value="minecraft">Minecraft</option>
+                    <option value="fortnite">Fornite</option>
+                    <option value="mario">Super Mario Odyssey</option>
+                </select>
+
+                <p>How often do you play video games?</p>
+                <label><input type="radio" name="frequency" value="Daily"> Daily</label>
+                <label><input type="radio" name="frequency" value="Weekly"> Weekly</label>
+                <label><input type="radio" name="frequency" value="Monthly"> Monthly</label>
+
+                <p>What aspects matter most in a great game?</p>
+                <label><input type="checkbox" name="traits" value="story"> Story</label>
+                <label><input type="checkbox" name="traits" value="graphics"> Graphics</label>
+                <label><input type="checkbox" name="traits" value="multiplayer"> Multiplayer</label>
+                <label><input type="checkbox" name="traits" value="replaybility"> Replayability</label>
+
+                <label for="rating">Rate this tier list (1-10):</label>
+                <input type="number" id="rating" name="rating" min="1" max="10">
+            </fieldset>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Eazi | <a href="tierlist.html">Back to Tier List</a></p>
+    </footer> 
+</body>
+</html>
