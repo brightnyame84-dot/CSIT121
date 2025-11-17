@@ -1,0 +1,147 @@
+body {
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 10px;
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+nav ul li a.current {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+h2 {
+    background-color: rgb(106, 106, 212);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    margin-bottom: 5px;
+    color: rgb(60, 60, 120);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+div p a {
+    color: rgb(60, 60, 120);       
+    text-decoration: underline;     
+    font-size: 0.9em;               
+}
+
+div p a:hover {
+    color: rgb(106, 106, 212);      
+    text-decoration: none;          
+}
+
+footer {
+    background-color: rgb(31, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* Responsive Navbar */
+.navbar {
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+}
+
+.navbar ul li a:hover, .navbar ul li a.current {
+    text-decoration: underline;
+    color: rgb(106, 106, 212);
+}
+
+.navbar .icon {
+    display: none;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+        display: none; 
+        margin-top: 10px;
+    }
+    .navbar ul.show {
+        display: flex;
+    }
+    .navbar .icon {
+        display: block;
+    }
+}

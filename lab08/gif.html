@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF Example - Image Format Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Image Format Guide</h1>
+        <nav class="navbar" id="nav-links">
+            <div class="logo">Image Guide</div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jpg.html">JPG Example</a></li>
+                <li><a href="png.html">PNG Example</a></li>
+                <li><a href="gif.html" class="current">GIF Example</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>GIF Format</h2>
+
+        <img src="images/logo.gif" 
+             alt="Animated GIF of soccer player scoring a goal">
+
+        <section>
+            <h3>About This Image</h3>
+            <p>
+                This short animation shows a soccer player scoring a goal during practice. 
+                It highlights the excitement of the game in a looping, visual format.
+            </p>
+        </section>
+
+        <section>
+            <h3>Why GIF Format?</h3>
+            <p>
+                GIF format is perfect for short animations like this because it supports simple motion and loops automatically. 
+                The file size remains small while keeping the movement smooth enough to view online.
+            </p>
+        </section>
+
+        <div>
+            <p>Image source: <a href="https://share.google/images/sACPhkl9lSn8NO52J" target="_blank">Tenor</a>
+
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Eazi</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

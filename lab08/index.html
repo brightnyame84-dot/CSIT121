@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Format Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Image Format Guide</h1>
+        <nav class="navbar" id="nav-links">
+            <div class="logo">Image Guide</div>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="jpg.html">JPG Example</a></li>
+                <li><a href="png.html">PNG Example</a></li>
+                <li><a href="gif.html">GIF Example</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to the Image Format Guide</h2>
+        
+        <p>
+            This website demonstrates common web image formats  <strong>JPG</strong>, <strong>PNG</strong>, and <strong>GIF</strong> 
+            and explains why each format works best for specific types of images. All pages share the same design, navigation, and background for consistency.
+        </p>
+        
+        <p>
+            The theme of this site is <strong>soccer</strong>, showcasing team photos, our club logo, and a short animated goal celebration. 
+            Each page uses a different image format to highlight the best use case for that type.
+        </p>
+
+        <img src="images/Chelsea_stand.jpg" alt="Soccer team photo, club logo, and animated goal GIF">
+
+        <p>
+            Use the menu above to explore examples of each image format and learn why each is suitable for different types of images.
+        </p>
+        <div>
+            <p>
+                image source: <a href="https://share.google/images/lDn0sbsIF5rVfFiSy" target="_blank">Wikimedia</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Eazi</p>
+    </footer>
+    <script>
+    function toggleMenu() {
+        const navLinks = document.getElementById("nav-links");
+        navLinks.classList.toggle("show");    
+        }
+    </script>
+</body>
+</html>
